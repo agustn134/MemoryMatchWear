@@ -13,6 +13,26 @@
 
 ---
 
+### GIT COMMITS
+
+https://github.com/agustn134/MemoryMatchWear/commit/1bdb182948a2e5f94134bcdcdd177b17575badfc
+https://github.com/agustn134/MemoryMatchWear/commit/c4d2ce27be52519be3db6ce0fffcc80840826e97
+
+https://github.com/agustn134/MemoryMatchWear/commit/653b163703de6a6282b666ddd6215c0ae1beb7b0
+
+https://github.com/agustn134/MemoryMatchWear/commit/09ddcd2c444b3c72a92c2935c63df1b58b357d96
+
+https://github.com/agustn134/MemoryMatchWear/commit/dffb4edd15f06680fc807a4ed880adaf85b2b6d2
+
+https://github.com/agustn134/MemoryMatchWear/commit/d0d817a4dee2fe080c24356c54ca75765d78610b
+
+https://github.com/agustn134/MemoryMatchWear/commit/d3ff2d20daa0237924f7cae2a2967bf18b9c2d73
+
+https://github.com/agustn134/MemoryMatchWear/commit/621331fc0f244c2d5cf434258c384a4980b10144
+[
+](https://github.com/agustn134/MemoryMatchWear/commit/44444e806d84fbc4c90e13df2c1d09b778c78a6c)
+
+
 **Memory Match** es un juego de memoria que muestra una cuadrícula de tarjetas boca abajo en la pantalla circular del reloj. El jugador las voltea de dos en dos buscando pares de componentes Android (Compose, Room, Flow, StateFlow, ViewModel...). Al completar todos los pares gana. Incluye animaciones fluidas tipo *flip* y respuesta háptica (vibración).
 
 ## 1. Visión General
