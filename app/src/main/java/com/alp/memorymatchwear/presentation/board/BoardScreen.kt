@@ -19,10 +19,10 @@ import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.wear.compose.foundation.lazy.rememberScalingLazyListState
-import androidx.wear.compose.material.PositionIndicator
-import androidx.wear.compose.material.TimeText
 import androidx.wear.compose.material.curvedText
-import androidx.wear.compose.material.timeTextSeparator
+import androidx.wear.compose.material.PositionIndicator
+import androidx.wear.compose.material.Text
+import androidx.wear.compose.material.TimeText
 import androidx.wear.compose.material.scrollAway
 import com.alp.memorymatchwear.domain.model.GamePhase
 import com.alp.memorymatchwear.domain.model.GameState
@@ -57,10 +57,15 @@ fun BoardScreen(viewModel: MemoryViewModel = viewModel()) {
     Box(modifier = Modifier.fillMaxSize().background(Color(0xFF0A0A1E))) {
  
         // HUD superior: tiempo
-        TimeText(modifier = Modifier.scrollAway(rememberScalingLazyListState())) {
-            timeTextSeparator()
-            curvedText("${state.elapsedSeconds}s · ${state.moves} mov")
-        }
+        TimeText(
+            modifier = Modifier.scrollAway(rememberScalingLazyListState()),
+            startLinearContent = {
+                Text("${state.elapsedSeconds}s · ${state.moves} mov")
+            },
+            startCurvedContent = {
+                curvedText("${state.elapsedSeconds}s · ${state.moves} mov")
+            }
+        )
  
         // Cuadrícula 3×4 centrada en la pantalla circular
         LazyVerticalGrid(
