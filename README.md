@@ -74,6 +74,7 @@ El tablero tiene 12 tarjetas (6 pares) dispuestas en una cuadrícula 3×4 sobre 
 | **Testing** | JUnit 4 — pruebas de la lógica de matching y mezcla (sin necesidad de emulador). |
 
 
+<img width="384" height="384" alt="imagen" src="https://github.com/user-attachments/assets/8345053e-613e-4c0f-88a2-187f1fee8c2c" />
 
 <img width="384" height="384" alt="imagen" src="https://github.com/user-attachments/assets/8dbb07b3-e00d-4afb-a120-d113034cfc46" />
 
