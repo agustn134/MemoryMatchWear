@@ -72,3 +72,12 @@ El tablero tiene 12 tarjetas (6 pares) dispuestas en una cuadrícula 3×4 sobre 
 | **Haptics** | `WearableHapticFeedback` (para eventos de match, error y victoria). |
 | **Coroutines** | `viewModelScope.launch` para gestionar la pausa asíncrona de 800ms. |
 | **Testing** | JUnit 4 — pruebas de la lógica de matching y mezcla (sin necesidad de emulador). |
+
+
+
+<img width="384" height="384" alt="imagen" src="https://github.com/user-attachments/assets/8dbb07b3-e00d-4afb-a120-d113034cfc46" />
+
+<img width="384" height="384" alt="imagen" src="https://github.com/user-attachments/assets/ea6aba8e-94a6-480d-ac58-1257202be678" />
+
+<img width="384" height="384" alt="imagen" src="https://github.com/user-attachments/assets/3ff4a12f-8f68-40ff-a5a3-de9170fe005a" />
+
