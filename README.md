@@ -4,5 +4,4 @@ Memory Match es un juego de memoria que muestra una cuadrícula de tarjetas boca
 ### Datos del Alumno
 * **Nombre:** Agustin Lopez Parra
 * **Grupo:** GIDS6093
-* **Repositorio:** [github.com/agustn134/MemoryMatchWear](https://github.com/agustn134/MemoryMatchWear) *(Recuerda actualizar este enlace con tu usuario real)*
-
+* **Repositorio:** [github.com/agustn134/MemoryMatchWear](https://github.com/agustn134/MemoryMatchWear) 
